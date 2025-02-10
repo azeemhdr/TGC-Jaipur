@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root{
+	--backgroundColor:#008000;
+	--secondaryColor:#90ee90;
+	--accentColor:#ff5722;
+	--textColor:#ffffff;
+	--paraColor:#666;
+	--primaryFont: "IBM Plex Sans", serif;
+}
+
+body{
+	font-family: var(--primaryFont);
+}
+
+a{
+	text-decoration: none;
+	color: var(--textColor);
+}
+.section{
+	padding: 16px 0px;
+}
+.hero{
+	background-image: linear-gradient(to right,var(--backgroundColor),var(--secondaryColor));
+	color: var(--textColor);
+}
+h1{
+	line-height: 1.4;
+}
+.content-wrapper{
+	padding: 50px;
+}
+.banner-heading{
+	font-size: 3rem;
+}
+
+.hero-course-detail a{
+	background-color: var(--accentColor);
+	transition: 300ms ease-in-out;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.hero-course-detail a:nth-child(2){
+	background-color: transparent;
+}
+
+.hero-course-detail a:hover{
+background-color: var(--accentColor);
+}
+
+.banner-img img{
+	max-width: 400px;
+}
+.card-grid{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: 1fr 1fr;
+	gap: 15px;
+}
+
+.card{
+	height: 100%;
+	transition: 500ms ease-in;;
+	align-items: center;
+}
+.card img{
+	width: 50px;
+	margin-bottom: 5px;;
+}
+.card h4{
+	font-size: 16px;
+}
+.card p{
+	color:var(--paraColor)
+}
+
+.card:hover{
+	background-color: var(--backgroundColor);
+	color: var(--textColor);
+	transform: translateY(-5px);
+}
+
+.card:hover p{
+	color: var(--textColor);
+}
