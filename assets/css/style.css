@@ -17,6 +17,77 @@ a{
 	text-decoration: none;
 	color: var(--textColor);
 }
+
+.top-nav,.nav-wrap,.header-tel,.h-tel-detail{
+	display: flex;
+	align-items: center;
+}
+
+.social-icons{
+	display: flex;
+	justify-content: space-around;
+	gap: 10px;
+	padding: 10px 80px 10px 0px;
+	position: relative;
+}
+.social_img img{
+	width: 35px;
+}
+
+.social-icons::after{
+	content: '';
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-bottom:55px  solid white ;
+	border-right: 55px solid transparent;
+	top: 0;
+	left: 0;
+
+}
+.nav-rigth,.nav-left{
+	background-color: var(--backgroundColor);
+	width: 50%;
+}
+.header-two{
+	padding-bottom: 10px;
+}
+.secondary-nav{
+	padding:0px 50px;
+}
+.nav-wrap{
+	padding: 14px 0px;
+}
+.header-tel{
+	gap: 20px;
+}
+.logo,.header-call-wrap,.header-email,.header-address{
+	flex: 1;
+}
+
+.h-tel-detail h4,p{
+	margin: 0;
+}
+.h-tel-detail h4{
+	font-size: 16px;
+	font-weight: 700;
+}
+.h-tel-img i{
+	color:var(--paraColor);
+	border-radius: 50%;
+	border: 2px solid var(--paraColor);
+	padding: 7px;
+}
+.location-icon{
+	padding: 7px 10px!important;
+}
+
+.h-whatsapp{
+	padding-top: 10px;
+}
+.h-tel-email{
+	display: block;
+}
 .section{
 	padding: 16px 0px;
 }
@@ -51,6 +122,25 @@ background-color: var(--accentColor);
 
 .banner-img img{
 	max-width: 400px;
+}
+
+.modules{
+	background-color: #fff;
+	background-image: none;
+}
+
+.modules-grid{
+	grid-template-rows: 1fr 1fr 1fr!important;
+}
+.module-card,.module-card h4{
+	background-color: var(--backgroundColor);
+	color: #fff;
+}
+.module-card p{
+	color: #fff!important;
+}
+.modules h2{
+	color: #000;
 }
 .card-grid{
 	display: grid;
