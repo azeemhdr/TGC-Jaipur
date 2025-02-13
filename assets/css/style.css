@@ -129,23 +129,46 @@ background-color: var(--accentColor);
 	background-image: none;
 }
 
-.modules-grid{
+/* .modules-grid{
 	grid-template-rows: 1fr 1fr 1fr!important;
-}
-.module-card,.module-card h4{
+} */
+.module-card{
 	background-color: var(--backgroundColor);
 	color: #fff;
+}
+
+.modules-grid h3{
+	font-size: 18px!important;
+}
+
+.modules-grid h5{
+	font-size: 14px;
 }
 .module-card p{
 	color: #fff!important;
 }
+.modules-grid p{
+	margin: 10px 0px;
+}
 .modules h2{
 	color: #000;
+}
+
+.module-course-details a{
+	padding: 8px 10px !important;
+	font-size:14px!important;
+	font-weight:400!important;
+	background-color: var(--backgroundColor);
+	background-image: linear-gradient(45deg,#00000096 , rgba(0, 0, 0, 0));
+}
+.module-course-details .module-btn{
+	background-color: var(--accentColor)!important;
+	background-image: none;
 }
 .card-grid{
 	display: grid;
 	grid-template-columns: repeat(3,1fr);
-	grid-template-rows: 1fr 1fr;
+	/* grid-template-rows: 1fr 1fr; */
 	gap: 15px;
 }
 
