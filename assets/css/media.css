@@ -1,0 +1,38 @@
+@media  (max-width:576px) and (min-width:360px) {
+	.nav-left{
+		display: none;
+	}
+	.nav-right{
+		width: 100%;
+	}
+	.social-icons{
+		padding: 10px 80px;
+		justify-content: space-between;
+	}
+	.social-icons::after{
+		border: none;
+	}
+	.social_img img{
+		width: 20px;
+	}
+	.secondary-nav{
+		padding: 0px;
+	}
+	.nav-wrap,.content-wrapper{
+		flex-direction: column;
+		text-align: center;
+		padding: 0px;
+	}
+	.nav-wrap .logo{
+		width: 100%;
+		box-shadow: 0 0 4px rgb(160, 159, 159);
+	}
+	.header-email,.header-address{
+		display: none;
+	}
+	.header-tel{
+		justify-content: center;
+		margin: 10px;
+	}
+	
+}

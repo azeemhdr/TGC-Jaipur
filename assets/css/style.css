@@ -266,3 +266,54 @@ h1 {
   padding-top: 15px;
   color: var(--paraColor)!important;
 }
+.footer{
+  padding:30px 0px 60px;
+}
+.footerWraper{
+  gap: 40px;
+}
+.footer-logo img{
+  width: 400px;
+}
+.f-social{
+  margin: 20px 0px 30px;
+}
+
+.f-social a{
+  padding-right:20px ;
+}
+.f-social img{
+  width: 32px;
+}
+
+.footerContent h3, .footerContent p{
+  padding-bottom:10px;
+  margin: 0;
+  font-size: 20px;
+}
+.footerContent p{
+  font-size: 16px;
+}
+.bottom-bar {
+  background-color: var(--backgroundColor);
+  padding-top: 10px;
+  position: sticky;
+  bottom: 0;
+}
+.bottom-bar-form input{
+  height: 30px;
+  padding-left: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+.bottom-bar-form button{
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  width: 100px;
+  height: 30px;
+  background-color: #dd3333;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
