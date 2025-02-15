@@ -47,7 +47,7 @@ a {
   top: 0;
   left: 0;
 }
-.nav-rigth,
+.nav-right,
 .nav-left {
   background-color: var(--backgroundColor);
   width: 50%;
