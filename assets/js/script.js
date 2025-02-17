@@ -2,7 +2,7 @@ $(document).ready(function(){
 		$(".partner-carousel").slick({
 		  slidesToShow: 8,
 		  slidesToScroll: 1,
-		  infinite: false,
+		  infinite: true,
 		  speed: 500,
 		  cssEase: "linear",
 		  autoplay: true,
