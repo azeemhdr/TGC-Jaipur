@@ -317,3 +317,38 @@ h1 {
   font-weight: bold;
   cursor: pointer;
 }
+
+.benifit-icon{
+  font-size: 50px;
+}
+.learn-tools-grid{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  gap:10px
+}
+.tool-img{
+  overflow: hidden;
+}
+.tool-img img{
+  width: 140px;
+  padding: 10px;
+}
+
+.d-social-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 140px;
+}
+
+.india-toady{
+  border-radius: 20px !important;
+}
+
+.tools-wrapper{
+  height: 122px;
+}
+
+.t-img img{
+  padding: 20px;
+}
