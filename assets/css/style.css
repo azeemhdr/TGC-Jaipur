@@ -387,3 +387,8 @@ h1 {
 .contact-us-form{
 background-color: #f2f2f2;
 }
+
+.behance-grid iframe{
+  min-height: 316px;
+  height: 100%;
+}
