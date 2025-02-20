@@ -5,8 +5,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
-	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
-	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
+	<!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" /> -->
 	<link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
 		integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
@@ -105,6 +105,38 @@
 			</div>
 		</nav>
 	</header>
+	<section class="modal_section">
+		<div class="modal-wrapper ">
+			<div class="modal-form p-3 rounded ">
+				<div class="modalForm-close text-end "><a href="#" class="text-danger fw-bold">X</a></div>
+				
+					<form action="" method="">
+						<div class="input-wrapper">
+							<div class="input-label">
+								<label for="fname">Name</label>
+							</div>
+							<input type="text" name="name" id="fname" placeholder="Enter Your Full Name">
+						</div>
+						<div class="input-wrapper">
+							<div class="input-label">
+								<label for="email">Email</label>
+							</div>
+							<input type="text" name="name" id="email" placeholder="Enter Your Email Address">
+						</div>
+						<div class="input-wrapper">
+							<div class="input-label">
+								<label for="phone">Phone Number</label>
+							</div>
+							<input type="text" name="name" id="phone" placeholder="Enter Your Conatct Number">
+						</div>
+						<div class="hero-course-detail d-flex mt-3">
+							<a href="#" class="py-3 px-4 rounded fw-bold ">Enroll Now</a>
+						</div>
+					</form>
+			
+			</div>
+		</div>
+	</section>
 	<section class="hero section mb-3">
 		<div class="content-wrapper">
 			<div class="container ">
@@ -129,7 +161,7 @@
 							provides expert guidance and hands-on experience to help you succeed.
 						</p>
 						<div
-							class="hero-course-detail d-flex gap-1 flex-wrap flex-md-nowrap justify-content-center justify-content-md-start">
+							class="hero-course-detail open_modal d-flex gap-1 flex-wrap flex-md-nowrap justify-content-center justify-content-md-start">
 							<a href="#" class="p-3 border">Get Fee Details in 60 Sec</a>
 							<a href="#" class="p-3 border">Get a Free Course Brochure</a>
 						</div>
@@ -152,7 +184,7 @@
 					<div class="">
 						<div class="card p-3 shadow-lg ">
 							<!-- <img src="assets/images/module.jpg" alt="" class="img-fluid"> -->
-							<img src="assets/images/module1.webp" alt="" class="img-fluid">
+							<img src="assets/images/modules (1).webp" alt="" class="img-fluid module_img">
 							<h5 class="fw-bold">Module 1</h5>
 							<h3 class="fw-bold">Introduction to Video Editing</h3>
 							<p>At TGC Laxmi Nagar, our Introduction to Video Editing module lays the foundation for your
@@ -164,7 +196,7 @@
 								experience, this foundational module ensures you are ready for more advanced techniques.
 							</p>
 							<div
-								class="hero-course-detail module-course-details d-flex flex-wrap flex-md-nowrap justify-content-center justify-content-md-start gap-1">
+								class="hero-course-detail open_modal module-course-details d-flex flex-wrap flex-md-nowrap justify-content-center justify-content-md-start gap-1">
 								<a href="#" class="p-3 border">Download Brochure</a>
 								<a href="#" class="p-3 border module-btn">Get Fee Details in 60 Sec</a>
 							</div>
@@ -172,7 +204,7 @@
 					</div>
 					<div class="">
 						<div class="card p-3 shadow-lg module-card	">
-							<img src="assets/images/module2.webp" alt="" class="img-fluid">
+							<img src="assets/images/modules (2).webp" alt="" class="img-fluid ">
 							<h5 class="fw-bold">Module 2</h5>
 							<h3 class="fw-bold">Advanced Editing Techniques</h3>
 							<p>The Advanced Editing Techniques module focuses on enhancing your creative and technical
@@ -182,7 +214,7 @@
 								popular software, mastering techniques that are essential for high-quality video
 								production in industries like film, TV, and digital content. </p>
 							<div
-								class="hero-course-detail module-course-details d-flex  flex-wrap flex-md-nowrap justify-content-center justify-content-md-start gap-1">
+								class="hero-course-detail open_modal module-course-details d-flex  flex-wrap flex-md-nowrap justify-content-center justify-content-md-start gap-1">
 								<a href="#" class="p-3 border">Download Brochure</a>
 								<a href="#" class="p-3 border module-btn">Get Fee Details in 60 Sec</a>
 							</div>
@@ -190,7 +222,7 @@
 					</div>
 					<div class="">
 						<div class="card p-3 shadow-lg ">
-							<img src="assets/images/module3.webp" alt="">
+							<img src="assets/images/modules (3).webp" alt="" class="img-fluid">
 							<h5 class="fw-bold">Module 3</h5>
 							<h3>Audio Editing and Sound Design</h3>
 							<p>In the Audio Editing and Sound Design module, you'll discover how to create immersive
@@ -200,7 +232,7 @@
 								enhancing storytelling, giving you the skills to deliver videos with professional-grade
 								audio quality. </p>
 							<div
-								class="hero-course-detail module-course-details d-flex  flex-wrap flex-md-nowrap justify-content-center justify-content-md-start gap-1">
+								class="hero-course-detail open_modal module-course-details d-flex  flex-wrap flex-md-nowrap justify-content-center justify-content-md-start gap-1">
 								<a href="#" class="p-3 border">Download Brochure</a>
 								<a href="#" class="p-3 border module-btn">Get Fee Details in 60 Sec</a>
 							</div>
@@ -208,7 +240,7 @@
 					</div>
 					<div class="">
 						<div class="card p-3 shadow-lg module-card">
-							<img src="assets/images/module4.webp" alt="" class="img-fluid">
+							<img src="assets/images/modules (4).webp" alt="" class="img-fluid">
 							<h5 class="fw-bold">Module 4</h5>
 							<h3 class="fw-bold">Motion Graphics</h3>
 							<p>The Motion Graphics and VFX module focuses on adding a dynamic edge to your videos.
@@ -218,7 +250,7 @@
 								end, you'll be equipped to produce captivating visuals that enhance your storytelling.
 							</p>
 							<div
-								class="hero-course-detail module-course-details d-flex  flex-wrap flex-md-nowrap justify-content-center justify-content-md-start gap-1">
+								class="hero-course-detail open_modal module-course-details d-flex  flex-wrap flex-md-nowrap justify-content-center justify-content-md-start gap-1">
 								<a href="#" class="p-3 border">Download Brochure</a>
 								<a href="#" class="p-3 border module-btn">Get Fee Details in 60 Sec</a>
 							</div>
@@ -226,7 +258,7 @@
 					</div>
 					<div class="">
 						<div class="card p-3 shadow-lg">
-							<img src="assets/images/module5.webp" alt="" class="img-fluid">
+							<img src="assets/images/modules (1).webp" alt="" class="img-fluid">
 							<h5 class="fw-bold">Module 5</h5>
 							<h3 class="fw-bold">Color Grading and Correction</h3>
 							<p>The Color Grading and Correction module teaches you how to manipulate color for visual
@@ -235,7 +267,7 @@
 								your videos have a polished, professional look that aligns with the creative vision of
 								the project. </p>
 							<div
-								class="hero-course-detail module-course-details d-flex  flex-wrap flex-md-nowrap justify-content-center justify-content-md-start gap-1">
+								class="hero-course-detail open_modal module-course-details d-flex  flex-wrap flex-md-nowrap justify-content-center justify-content-md-start gap-1">
 								<a href="#" class="p-3 border">Download Brochure</a>
 								<a href="#" class="p-3 border module-btn">Get Fee Details in 60 Sec</a>
 							</div>
@@ -243,7 +275,7 @@
 					</div>
 					<div class="">
 						<div class="card p-3 shadow-lg module-card">
-							<img src="assets/images/module6.webp" alt="" class="img-fluid">
+							<img src="assets/images/modules (2).webp" alt="" class="img-fluid">
 							<h5 class="fw-bold">Module 6</h5>
 							<h3 class="fw-bold">Storyboarding and Pre-Production Planning</h3>
 							<p>In the Storyboarding and Pre-Production Planning module, you'll learn the importance of
@@ -252,7 +284,7 @@
 								of scripting and shot planning, ensuring you can approach any editing project with
 								confidence and structure. </p>
 							<div
-								class="hero-course-detail module-course-details d-flex  flex-wrap flex-md-nowrap justify-content-center justify-content-md-start gap-1">
+								class="hero-course-detail open_modal module-course-details d-flex  flex-wrap flex-md-nowrap justify-content-center justify-content-md-start gap-1">
 								<a href="#" class="p-3 border">Download Brochure</a>
 								<a href="#" class="p-3 border module-btn">Get Fee Details in 60 Sec</a>
 							</div>
@@ -269,7 +301,7 @@
 								quality and file size, and meet platform-specific requirements. This module also covers
 								best practices for uploading and distributing videos, ensuring your work looks its best
 								across all channels. </p>
-							<div class="hero-course-detail module-course-details d-flex flex-wrap flex-md-nowrap justify-content-center justify-content-md-start gap-1">
+							<div class="hero-course-detail open_modal module-course-details d-flex flex-wrap flex-md-nowrap justify-content-center justify-content-md-start gap-1">
 								<a href="#" class="p-3 border">Download Brochure</a>
 								<a href="#" class="p-3 border module-btn">Get Fee Details in 60 Sec</a>
 							</div>
@@ -417,7 +449,7 @@
 
 					<div class="shadow-lg bg-white d-social-img">
 						<div class="tool-img ">
-							<img src="assets/images/WATConsult.webp" alt="">
+							<img src="assets/images/hireing_co (5).webp" alt="">
 						</div>
 					</div>
 
@@ -447,13 +479,13 @@
 
 					<div class="shadow-lg bg-white d-social-img">
 						<div class="tool-img ">
-							<img src="assets/images/India-Today-Group.png" alt="" class="india-toady">
+							<img src="assets/images/hireing_co (1).webp" alt="" class="india-toady">
 						</div>
 					</div>
 
 					<div class="shadow-lg bg-white d-social-img">
 						<div class="tool-img ">
-							<img src="assets/images/India-Today-Group.png" alt="" class="india-toady">
+							<img src="assets/images/hireing_co (2).webp" alt="" class="india-toady">
 						</div>
 					</div>
 
@@ -495,7 +527,7 @@
 
 					<div class="shadow-lg bg-white d-social-img">
 						<div class="tool-img ">
-							<img src="assets/images/India-Today-Group.png" alt="" class="india-toady">
+							<img src="assets/images/hireing_co (3).webp" alt="" class="india-toady">
 						</div>
 					</div>
 
@@ -515,7 +547,7 @@
 
 					<div class="shadow-lg bg-white d-social-img">
 						<div class="tool-img ">
-							<img src="assets/images/WATConsult.webp" alt="">
+							<img src="assets/images/hireing_co (6).webp" alt="">
 						</div>
 					</div>
 
@@ -529,7 +561,7 @@
 
 					<div class="shadow-lg bg-white d-social-img">
 						<div class="tool-img ">
-							<img src="assets/images/WATConsult.webp" alt="">
+							<img src="assets/images/hireing_co (7).webp" alt="">
 						</div>
 					</div>
 
@@ -559,7 +591,7 @@
 
 					<div class="shadow-lg bg-white d-social-img">
 						<div class="tool-img ">
-							<img src="assets/images/India-Today-Group.png" alt="" class="india-toady">
+							<img src="assets/images/hireing_co (4).webp" alt="" class="india-toady">
 						</div>
 					</div>
 
@@ -841,7 +873,7 @@
 							src="https://www.youtube.com/embed/lVm0yalKfAM?si=DfKZBCiERMUXgV4j"
 							title="YouTube video player" frameborder="0"
 							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-							referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+							referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
 					</div>
 				</div>
 				<div class="video-review">
@@ -850,7 +882,7 @@
 							src="https://www.youtube.com/embed/bnOzU9PuEnM?si=JTtat-zYQj5rnLmj"
 							title="YouTube video player" frameborder="0"
 							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-							referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+							referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
 					</div>
 				</div>
 				<div class="video-review">
@@ -859,7 +891,7 @@
 							src="https://www.youtube.com/embed/D3DnL2ulf5k?si=46q0AdXKGUq10Bp0"
 							title="YouTube video player" frameborder="0"
 							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-							referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+							referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
 					</div>
 				</div>
 				<div class="video-review">
@@ -868,7 +900,7 @@
 							src="https://www.youtube.com/embed/BEOKo_XSSQk?si=qwkBlqTeILCeFQ31"
 							title="YouTube video player" frameborder="0"
 							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-							referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+							referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
 					</div>
 				</div>
 				<div class="video-review">
@@ -877,7 +909,7 @@
 							src="https://www.youtube.com/embed/8a_MSVhxUeM?si=KCSh11gKo-McFuQJ"
 							title="YouTube video player" frameborder="0"
 							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-							referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+							referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
 					</div>
 				</div>
 				<div class="video-review">
@@ -886,7 +918,7 @@
 							src="https://www.youtube.com/embed/A3eiOu7dFgE?si=4yFuTtvFfW_CHnu3"
 							title="YouTube video player" frameborder="0"
 							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-							referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+							referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
 					</div>
 				</div>
 				<div class="video-review">
@@ -895,7 +927,7 @@
 							src="https://www.youtube.com/embed/8a_MSVhxUeM?si=KCSh11gKo-McFuQJ"
 							title="YouTube video player" frameborder="0"
 							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-							referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+							referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
 					</div>
 				</div>
 				<div class="video-review">
@@ -904,7 +936,7 @@
 							src="https://www.youtube.com/embed/dw86F_DZnVQ?si=O0P2TdOMXXIsE6-O"
 							title="YouTube video player" frameborder="0"
 							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-							referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+							referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
 					</div>
 				</div>
 				<div class="video-review">
@@ -913,7 +945,7 @@
 							src="https://www.youtube.com/embed/mRHUD8XYdc0?si=04E1lTXx-8b5M9Ks"
 							title="YouTube video player" frameborder="0"
 							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-							referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+							referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
 					</div>
 				</div>
 			</div>
@@ -1036,8 +1068,8 @@
 							</div>
 							<input type="text" name="name" id="phone" placeholder="Enter Your Conatct Number">
 						</div>
-						<div class="hero-course-detail d-flex mt-3">
-							<a href="#" class="py-3 px-4 rounded fw-bold ">Enroll Now</a>
+						<div class="hero-course-detail  d-flex mt-3">
+							<a href="#" class="py-3 px-4 rounded fw-bold ">Contact Us</a>
 						</div>
 					</form>
 
@@ -1192,7 +1224,7 @@
 		</div>
 	</section>
 	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+	<!-- <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script> -->
 	<script src="assets/js/script.js"></script>
 	<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
