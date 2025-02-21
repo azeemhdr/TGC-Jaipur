@@ -147,10 +147,10 @@ h1 {
 /* .modules-grid{
 	grid-template-rows: 1fr 1fr 1fr!important;
 } */
-.module-card {
+/* .module-card {
   background-color: var(--backgroundColor);
   color: #fff;
-}
+} */
 
 .modules-grid h3 {
   font-size: 18px !important;
@@ -159,9 +159,9 @@ h1 {
 .modules-grid h5 {
   font-size: 14px;
 }
-.module-card p {
+/* .module-card p {
   color: #fff !important;
-}
+} */
 .modules-grid p {
   margin: 10px 0px;
 }
@@ -193,7 +193,11 @@ h1 {
   align-items: center;
 }
 .card img {
+  width: 50px;
   margin-bottom: 5px;
+}
+.card .module_img{
+  width: 100%;
 }
 .card h4 {
   font-size: 16px;
@@ -392,21 +396,23 @@ background-color: #f2f2f2;
   height: 100%;
 }
 
-.modal-form{
-  width: 600px;
-  background-color:#fff;
+.modalForm{
+  background-color: #f2f2f2;
+  box-shadow: 0 0 4px var(--paraColor);
+  padding: 20px;
+  width: 500px;
 }
 
 .modal-wrapper{
-  background-color: #1d1c1c7e;
-  position: fixed;
-  inset: 0 0 0 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 111;
-  
+  height: 100vh;
 }
 .modal_section{
+  position: fixed;
+  background-color: #0000005e;
+  inset: 0 0 0 0;
+  z-index: 100;
   display: none;
 }
