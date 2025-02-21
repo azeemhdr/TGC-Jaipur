@@ -144,6 +144,10 @@ h1 {
   background-image: none;
 }
 
+.hidden-content{
+  display: none;
+}
+
 /* .modules-grid{
 	grid-template-rows: 1fr 1fr 1fr!important;
 } */
@@ -179,6 +183,11 @@ h1 {
 .module-course-details .module-btn {
   background-color: var(--accentColor) !important;
   background-image: none;
+}
+.module-learn-more{
+  cursor: pointer;
+  color:var(--accentColor);
+  text-decoration: underline;
 }
 .card-grid {
   display: grid;
