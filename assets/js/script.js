@@ -18,14 +18,9 @@ $(document).ready(function(){
 		let hiddenContent = $(this).siblings(".hidden-content");
 		let shortText = $(this).siblings(".short-text");
 
-		if (hiddenContent.is(":visible")) {
-			hiddenContent.hide();
-			shortText.show();
-			$(this).text("Learn More");
-		} else {
-			hiddenContent.show();
-			shortText.hide();
-			$(this).text("Show Less");
-		}
+		hiddenContent.slideToggle(300);
+		shortText.toggle();
+
+		$(this).text(hiddenContent.is(":visible") ? "Show less" : "Learn More");
 	});
 })
