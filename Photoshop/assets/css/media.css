@@ -1,0 +1,101 @@
+@media (max-width: 768px) and (min-width: 360px) {
+  .section {
+    padding: 16px 32px;
+  }
+
+  .container {
+    padding: 0px;
+  }
+  .nav-left {
+    display: none;
+  }
+  .nav-right {
+    width: 100%;
+  }
+  .social-icons {
+    padding: 10px 80px 10px 100px;
+    justify-content: space-between;
+  }
+  .social-icons::after {
+    border: none;
+  }
+  .social_img img {
+    width: 20px;
+  }
+  .secondary-nav {
+    padding: 0px;
+  }
+  .nav-wrap,
+  .content-wrapper,
+  .footerWraper {
+    flex-direction: column;
+    text-align: center;
+    padding: 0px;
+  }
+  .nav-wrap .logo {
+    width: 100%;
+    box-shadow: 0 0 4px rgb(160, 159, 159);
+  }
+  .header-email,
+  .header-address {
+    display: none;
+  }
+  .header-tel {
+    justify-content: center;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    line-height: 1.2;
+  }
+  .content-wrapper {
+    padding:0px;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+  .card p {
+    font-size: 14px;
+  }
+  .card h4 {
+    font-size: 13px;
+  }
+
+  .form_inputs input {
+    width: 100%;
+  }
+  .form-submit button {
+    display: block;
+    width: 100%;
+  }
+  
+  .learn-tools-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .partner-carousel .slick-slide {
+    margin: 0 10px;
+  }
+  .partner-carousel .slick-list {
+    margin: 0 -10px;
+  }
+
+  .contact-wrapper{
+	flex-direction: column;
+  }
+
+  .footer-logo img {
+    width: 320px;
+  }
+  .footerWraper {
+    padding: 20px;
+  }
+  .bottom-bar {
+    background-color: #ffc107;
+  }
+}

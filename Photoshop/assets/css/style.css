@@ -1,0 +1,427 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+:root {
+  --backgroundColor: #008000;
+  --secondaryColor: #90ee90;
+  --accentColor: #ff5722;
+  --textColor: #ffffff;
+  --paraColor: #666666;
+  --primaryFont: "IBM Plex Sans", serif;
+}
+
+body {
+  font-family: var(--primaryFont);
+}
+
+a {
+  text-decoration: none;
+  color: var(--textColor);
+}
+
+.sec_inner_p{
+  padding: 50px 0px;
+}
+
+.top-nav,
+.nav-wrap,
+.header-tel,
+.h-tel-detail {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 10px 80px 10px 0px;
+  position: relative;
+}
+.social_img img {
+  width: 35px;
+}
+
+.social-icons::after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-bottom: 55px solid white;
+  border-right: 55px solid transparent;
+  top: 0;
+  left: 0;
+}
+.nav-right,
+.nav-left {
+  background-color: var(--backgroundColor);
+  width: 50%;
+}
+.header-two {
+  padding-bottom: 10px;
+}
+.secondary-nav {
+  padding: 0px 50px;
+}
+.nav-wrap {
+  padding: 14px 0px;
+}
+.header-tel {
+  gap: 20px;
+}
+.logo,
+.header-call-wrap,
+.header-email,
+.header-address {
+  flex: 1;
+}
+
+.h-tel-detail h4,
+p {
+  margin: 0;
+}
+.h-tel-detail h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.h-tel-img i {
+  color: var(--paraColor);
+  border-radius: 50%;
+  border: 2px solid var(--paraColor);
+  padding: 7px;
+}
+.location-icon {
+  padding: 7px 10px !important;
+}
+
+.h-whatsapp {
+  padding-top: 10px;
+}
+.h-tel-email {
+  display: block;
+}
+.section {
+  padding: 16px 0px;
+}
+.hero {
+  background-image: linear-gradient(
+    to right,
+    var(--backgroundColor),
+    var(--secondaryColor)
+  );
+  color: var(--textColor);
+}
+h1 {
+  line-height: 1.4;
+}
+.content-wrapper {
+  padding: 50px;
+}
+.banner-heading {
+  font-size: 3rem;
+}
+
+.hero-course-detail a {
+  background-color: var(--accentColor);
+  transition: 300ms ease-in-out;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.hero-course-detail a:nth-child(2) {
+  background-color: transparent;
+}
+
+.hero-course-detail a:hover {
+  background-color: var(--accentColor);
+}
+
+.banner-img img {
+  max-width: 400px;
+}
+
+.modules {
+  background-color: #fff;
+  background-image: none;
+}
+
+.hidden-content{
+  display: none;
+}
+
+/* .modules-grid{
+	grid-template-rows: 1fr 1fr 1fr!important;
+} */
+/* .module-card {
+  background-color: var(--backgroundColor);
+  color: #fff;
+} */
+
+.modules-grid h3 {
+  font-size: 18px !important;
+}
+
+.modules-grid h5 {
+  font-size: 14px;
+}
+/* .module-card p {
+  color: #fff !important;
+} */
+.modules-grid p {
+  margin: 10px 0px;
+}
+.modules h2 {
+  color: #000;
+}
+
+.module-course-details a {
+  padding: 8px 10px !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  background-color: var(--backgroundColor);
+  background-image: linear-gradient(45deg, #00000096, rgba(0, 0, 0, 0));
+}
+.module-course-details .module-btn {
+  background-color: var(--accentColor) !important;
+  background-image: none;
+}
+.module-learn-more{
+  cursor: pointer;
+  color:var(--accentColor);
+  text-decoration: underline;
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-rows: 1fr 1fr; */
+  gap: 15px;
+}
+
+.card {
+  height: 100%;
+  transition: 500ms ease-in;
+  align-items: center;
+}
+.card img {
+  width: 50px;
+  margin-bottom: 5px;
+}
+.card .module_img{
+  width: 100%;
+}
+.card h4 {
+  font-size: 16px;
+}
+.card p {
+  color: var(--paraColor);
+}
+
+.card:hover {
+  background-color: var(--backgroundColor);
+  color: var(--textColor);
+  transform: translateY(-5px);
+}
+
+.card:hover p {
+  color: var(--textColor);
+}
+
+.freeDemoform{
+	width: 80%;
+	margin: auto;
+	padding-top: 20px;
+}
+.form-submit button {
+  border: none;
+  padding: 10px 42px;
+  border-radius: 4px;
+  background-color: var(--backgroundColor);
+  color: white;
+  background-image: linear-gradient(45deg, #00000096, rgba(0, 0, 0, 0));
+}
+.formDemo p{
+	font-size: 14px;
+}
+
+.slide img {
+  width: 150px;
+  height: 100px;
+  padding: 10px;
+  margin: 0px 10px;
+}
+.a-testimonial {
+  max-width: 800px;
+  margin: auto;
+}
+.tsti-slide {
+  background-color: var(--backgroundColor);
+  background-image: linear-gradient(
+    325deg,
+    var(--backgroundColor),
+    var(--accentColor) 70%
+  );
+  text-align: center;
+  padding: 20px;
+  /* width: 60%; */
+}
+.tsti-slide img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.answerPanel {
+	display: none;
+}
+.q_and_a h5,.q_and_a p{
+  font-size: 16px;
+  margin: 0;
+}
+.q_and_a p{
+  font-size: 14px;
+  padding-top: 15px;
+  color: var(--paraColor)!important;
+}
+.footer{
+  padding:30px 0px 60px;
+}
+.footerWraper{
+  gap: 40px;
+}
+.footer-logo img{
+  width: 400px;
+}
+.f-social{
+  margin: 20px 0px 30px;
+}
+
+.f-social a{
+  padding-right:20px ;
+}
+.f-social img{
+  width: 32px;
+}
+
+.footerContent h3, .footerContent p{
+  padding-bottom:10px;
+  margin: 0;
+  font-size: 20px;
+}
+.footerContent p{
+  font-size: 16px;
+}
+.bottom-bar {
+  background-color: var(--backgroundColor);
+  padding-top: 10px;
+  position: sticky;
+  bottom: 0;
+}
+.bottom-bar-form input{
+  height: 30px;
+  padding-left: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+.bottom-bar-form button{
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  width: 100px;
+  height: 30px;
+  background-color: #dd3333;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.benifit-icon{
+  font-size: 50px;
+}
+.learn-tools-grid{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  gap:10px
+}
+.tool-img{
+  overflow: hidden;
+}
+.tool-img img{
+  width: 140px;
+  padding: 10px;
+}
+
+.d-social-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 140px;
+}
+
+.india-toady{
+  border-radius: 20px !important;
+}
+
+.tools-wrapper{
+  height: 122px;
+}
+
+.t-img img{
+  padding: 20px;
+}
+
+/* enquiry form */
+.form,
+.location {
+  flex: 1;
+}
+
+.form{
+  background-color:#00800042;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+}
+.location{
+  width: 100%;
+}
+
+.input-wrapper input {
+  width: 100%;
+  padding: 14px 20px;
+  font-size: 16px;
+  outline: none;
+  /* border-radius: 4px; */
+}
+.input-label {
+  text-align: start;
+  padding: 10px 0px;
+}
+.contact-us-form{
+background-color: #f2f2f2;
+}
+
+.behance-grid iframe{
+  min-height: 316px;
+  height: 100%;
+}
+
+.modalForm{
+  background-color: #f2f2f2;
+  box-shadow: 0 0 4px var(--paraColor);
+  padding: 20px;
+  width: 500px;
+}
+
+.modal-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.modal_section{
+  position: fixed;
+  background-color: #0000005e;
+  inset: 0 0 0 0;
+  z-index: 100;
+  display: none;
+}
