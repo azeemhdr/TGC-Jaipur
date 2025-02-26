@@ -195,7 +195,9 @@ h1 {
   /* grid-template-rows: 1fr 1fr; */
   gap: 15px;
 }
-
+.extra-cards{
+  display: none ;
+}
 .card {
   height: 100%;
   transition: 500ms ease-in;

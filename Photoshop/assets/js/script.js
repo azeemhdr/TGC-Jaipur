@@ -23,4 +23,9 @@ $(document).ready(function(){
 
 		$(this).text(hiddenContent.is(":visible") ? "Show less" : "Learn More");
 	});
+	// view more why-us==========================================
+	$("#viewMoreBtn").click(function () {
+		$(".extra-cards").slideToggle(300);
+		$(this).text($(this).text() === "View More" ? "View Less" : "View More");
+	});
 })
