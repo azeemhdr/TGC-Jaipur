@@ -144,6 +144,10 @@ h1 {
   background-image: none;
 }
 
+.module-extra-card{
+  display: none;
+}
+
 .hidden-content{
   display: none;
 }

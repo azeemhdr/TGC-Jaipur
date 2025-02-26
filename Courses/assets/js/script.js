@@ -3,7 +3,7 @@ $(document).ready(function(){
 		$(".question").click(function () {
 			$(this).next(".answerPanel").slideToggle("slow");
 		  });
-	// Modal=====================================
+	// Modal========================================
 	$('.open_modal a').click(function(e){
 		e.preventDefault();
 		$('.modal_section').fadeIn();
@@ -23,9 +23,16 @@ $(document).ready(function(){
 
 		$(this).text(hiddenContent.is(":visible") ? "Show less" : "Learn More");
 	});
+	
 	// view more why-us==========================================
 	$("#viewMoreBtn").click(function () {
 		$(".extra-cards").slideToggle(300);
+		$(this).text($(this).text() === "View More" ? "View Less" : "View More");
+	});
+
+	// view more module=================================================
+	$("#viewMoreModule").click(function(){
+		$(".module-extra-card").slideToggle(300);
 		$(this).text($(this).text() === "View More" ? "View Less" : "View More");
 	});
 })
