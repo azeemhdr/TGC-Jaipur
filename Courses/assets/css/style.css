@@ -222,14 +222,14 @@ h1 {
 }
 
 .card:hover {
-  background-color: var(--backgroundColor);
-  color: var(--textColor);
+  /* background-color: var(--backgroundColor); */
+  /* color: var(--textColor); */
   transform: translateY(-5px);
 }
 
-.card:hover p {
+/* .card:hover p {
   color: var(--textColor);
-}
+} */
 
 .freeDemoform{
 	width: 80%;
